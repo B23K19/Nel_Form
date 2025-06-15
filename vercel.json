@@ -3,7 +3,7 @@
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist/nel-form" }
+      "config": { "distDir": "dist/Nel_Form" }
     }
   ],
   "rewrites": [
