@@ -21,7 +21,7 @@ placeholder-gray-400 placeholder-opacity-50" required />
 
     <div *ngIf="response" class="mt-4 p-4 bg-gray-100 rounded">
       <h3 class="font-bold">Response:</h3>
-      <pre>{{ wordRespond }}</pre>
+      <pre class="whitespace-pre-wrap break-words">{{ wordRespond }}</pre>
     </div>
 
     <div *ngIf="error" class="mt-4 p-4 bg-red-100 rounded text-red-700">
