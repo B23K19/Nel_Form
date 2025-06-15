@@ -30,12 +30,14 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
+                //this global
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
               "src/styles.css"
+              // Tailwind CSS will be processed by PostCSS
             ]
           },
           "configurations": {
